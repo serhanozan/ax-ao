@@ -1,3 +1,19 @@
+<h3>Usage:</h3>
+<p>
+First navigate and run mvn clean install <br>
+Add the log.aggregator-0.0.1-SNAPSHOT.jar to your build path <br>
+Then import de.ax.log.aggregation.main.Aggregator <br>
+Use the code below to execute the aggregator <br><br>
+Aggregator aggregator = new Aggregator(); <br>
+aggregator.aggregate(path); <br><br>
+Where path is the full file path to the input log file <br><br>
+</p>
+<h3>Assumptions:</h3>
+<p>
+<strong>I assume that the list below is a set, but the total number of hosts counts repeating hosts,too.</strong><br>
+Number of hosts for process 8 : <strong>3  (tc-3, tc-5)</strong><br>
+</p>
+<h3>Description</h3>
 <br><br>
 <strong>Log Aggregation</strong>
 <br><br>
@@ -48,11 +64,11 @@ Maximum severity for process 8 : ERROR<br>
 <br>
 Number of hosts for process 1 : 1  (tc-5)<br>
 …<br>
-Number of hosts for process 8 : 3  (tc-3, tc-5)<strong>I assume that this is a set, but the total numbers should be counted, too</strong><br><br>
+Number of hosts for process 8 : 3  (tc-3, tc-5)<br><br>
 <strong>Additional Requirements</strong><br>
 •	The actual test input file may be many gigabytes long; your program will be executed with default java memory settings and can’t fail with OutOfMemoryError<br>
 •	Project must be configured with Maven<br>
 •	Program must have unit tests<br>
 •	Public methods and classes must have Javadoc<br>
 •	It is allowed to use any opensource libraries<br>
-
+<br><br>
