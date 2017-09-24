@@ -17,7 +17,7 @@ public class AggregatorLargeLogFileTest {
 	
 	@BeforeClass
 	public static void setupBeforeClass() {
-		path = Thread.currentThread().getContextClassLoader().getResource("large-log-file.log").getPath();
+		path = Thread.currentThread().getContextClassLoader().getResource("large-log-file.data").getPath();
 
 		try(FileOutputStream fos = new FileOutputStream(path)) {
 			int i = 0;

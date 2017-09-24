@@ -1,0 +1,7 @@
+{requestId:"12345", processId:"7", host:"tc-1", severity:"INFO", timestamp:"17.06.2015 25.023"}
+{requestId:"12346", processId:"4", host:"tc-5", severity:"INFO", timestamp:"17.06.2015 14:13:25.023"}
+{requestId:"12347", processId:"2", host:"tc-3", severity:"WARN", timestamp:"18.14:13:25.023"}
+{requestId:"12348", prochost:"tc-3", severity:"ERROR", timestamp:"19.06.2015 14:13:25.023"}
+{requestId:"12355", processId:"1", host:"tc-5", severity:"WARN", timestamp:"18.06.2015 14:13:25.023"}
+{requestId:"12356", prINFO", timestamp:"17.06.2015 14:13:25.023"}
+{requestId:"12357", processId:"2", host:"tc-1", severity:"ERROR", timestamp:"22.06.2015 14:13:25.023"}

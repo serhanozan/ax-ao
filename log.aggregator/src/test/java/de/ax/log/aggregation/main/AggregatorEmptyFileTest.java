@@ -10,7 +10,7 @@ public class AggregatorEmptyFileTest {
 	
 	@Before
 	public void setupBeforeTest() {
-	    path = getClass().getClassLoader().getResource("empty-log-file.log").getPath();
+	    path = getClass().getClassLoader().getResource("empty-log-file.data").getPath();
 		aggregator = new Aggregator();
 	}
 	

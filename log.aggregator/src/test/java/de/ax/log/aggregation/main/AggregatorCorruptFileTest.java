@@ -10,7 +10,7 @@ public class AggregatorCorruptFileTest {
 	
 	@Before
 	public void setupBeforeTest() {
-	    path = getClass().getClassLoader().getResource("corrupt-log-file.log").getPath();
+	    path = getClass().getClassLoader().getResource("corrupt-log-file.data").getPath();
 		aggregator = new Aggregator();
 	}
 	

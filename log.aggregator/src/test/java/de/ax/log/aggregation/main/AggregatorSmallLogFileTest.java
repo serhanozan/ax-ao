@@ -14,7 +14,7 @@ public class AggregatorSmallLogFileTest {
 	
 	@Before
 	public void setupBeforeTest() {
-	    path = getClass().getClassLoader().getResource("small-log-file.log").getPath();
+	    path = getClass().getClassLoader().getResource("small-log-file.data").getPath();
 		aggregator = new Aggregator();
 	}
 	

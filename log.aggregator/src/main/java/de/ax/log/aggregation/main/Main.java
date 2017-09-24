@@ -19,7 +19,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 
 		ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
-	    String path = classLoader.getResource("audatex-input.log").getPath();
+	    String path = classLoader.getResource("audatex-input.data").getPath();
 		Aggregator aggregator = new Aggregator();
 		aggregator.aggregate(path);
 				
