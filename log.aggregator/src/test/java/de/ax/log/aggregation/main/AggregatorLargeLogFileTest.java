@@ -10,6 +10,19 @@ import org.junit.Test;
 
 import de.ax.log.aggregation.model.ProcessSeverity;
 
+/**
+ * Test class for the {@code Aggregator} class
+ * This test case is aimed to confirm that the
+ * program can handle a large (over 1GB) input 
+ * file correctly. The large input file is to
+ * be created by the test case itself after the
+ * initialization and after all the tests are 
+ * done its content is truncated to save disk 
+ * space. 
+ * 
+ * @author Serhan
+ *
+ */
 public class AggregatorLargeLogFileTest {
 	
 	private static String path;

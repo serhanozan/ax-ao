@@ -7,6 +7,15 @@ import org.junit.Test;
 
 import de.ax.log.aggregation.model.ProcessSeverity;
 
+/**
+ * Test class for the {@code Aggregator} class
+ * This test case is aimed to confirm that the
+ * program can handle the sample input file 
+ * correctly
+ * 
+ * @author Serhan
+ *
+ */
 public class AggregatorSmallLogFileTest {
 
 	private String path;
