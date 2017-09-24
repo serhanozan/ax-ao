@@ -39,13 +39,13 @@ Program should analyze the logs and calculate the following information:<br>
 	o	Maximum severity value (see the severity field description)<br>
 	o	Number of hosts participated<br><br>
 The program should produce the output data<br><br>
-<strong>Sample output</strong><br>
-The total number of processes is 6 (1,2,4,6,7,8)<br>
-The longest process: 2 (5 days)<br>
+<strong>Sample output</strong><br><br>
+The total number of processes is 6 (1,2,4,6,7,8)<br><br>
+The longest process: 2 (5 days)<br><br>
 Maximum severity for process 1 : WARN<br>
 …<br>
 Maximum severity for process 8 : ERROR<br>
-<br><br>
+<br>
 Number of hosts for process 1 : 1  (tc-5)<br>
 …<br>
 Number of hosts for process 8 : 3  (tc-3, tc-5)<strong>I assume that this is a set, but the total numbers should be counted, too</strong><br><br>
